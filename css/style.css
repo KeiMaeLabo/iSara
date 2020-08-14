@@ -1,0 +1,1097 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	font-family: "ヒラギノ角ゴシック", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #FFFFFF;
+}
+.header-rapper {
+  height: 75px;
+  padding: 0px 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.isaralogo {
+  width: 128px;
+  height: 45px;
+}
+.subtitle {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 18px;
+  left: 265px;
+}
+.inquiry {
+  width: 320px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 200;
+  color: #FFFFFF;
+  background-color: #DB6B65;
+  border-radius: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 44px;
+  cursor: pointer;
+}
+.inquiry:hover {
+  background-color: #CC3300;
+}
+
+section {
+  padding-top: 75px;
+}
+.container-1 {
+  height: 500px;
+  background-image: url("/Users/keimae/iSara/img/main.jpg");
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-1__center {
+  color: #333333;
+  text-align: center;
+}
+.title-1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.title-2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.isara-large {
+  width: 320px;
+  height: 110px;
+  margin-bottom: 30px;
+}
+.title-3 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.title-4 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+.container-2 {
+  height: 600px;
+  background-color: #EBB94D;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+.container-2__center {
+  text-align: center;
+  padding-top: 30px;
+}
+.container-2__title-1 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.container-2__title-2 {
+  font-size: 19px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.container-2__title-3 {
+  color: #C7264E;
+  background-color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.container-2__inquiry {
+  width: 1030px;
+  height: 105px;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #DB6B65;
+  border-radius: 52px;
+  text-align: center;
+  line-height: 105px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+.container-2__inquiry:hover {
+  background-color: #CC3300;
+}
+.container-2__apply {
+  font-size: 21px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.sns-list {
+  display: flex;
+  justify-content: center;
+}
+.sns-list__twitter {
+  height: 20px;
+  font-size: 11px;
+  font-weight: 300;
+  background-color: #2B95E0;
+  border-radius: 3px;
+  padding: 1px 8px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.sns-list__fb {
+  height: 20px;
+  font-size: 11px;
+  font-weight: 300;
+  background-color: #3176F3;
+  border-radius: 3px;
+  padding: 1px 8px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.sns-list__share {
+  height: 20px;
+  font-size: 11px;
+  font-weight: 300;
+  background-color: #3176F3;
+  border-radius: 3px;
+  padding: 1px 9px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.container-3 {
+  height: 587px;
+  background-image: url(/Users/keimae/iSara/img/introbottom.jpg);
+  background-size: cover;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+}
+.container-3__center {
+  text-align: center;
+}
+.container-3__title {
+  width: 860px;
+  height: 100px;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 40px 0px;
+  line-height: 100px;
+  position: relative;
+}
+.container-3__title::before, .container-3__title::after {
+  content: '';
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.container-3__title::before {
+  border-top: 4px solid #EBB94D;
+  border-left: 4px solid #EBB94D;
+  top: 0;
+  left: 0;
+}
+.container-3__title::after {
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+  bottom: 0;
+  right: 0;
+}
+.container-3__p {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.container-3__p-margin {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-bottom: 25px
+}
+.under-line {
+  font-weight: 600;
+  background: linear-gradient(transparent 70%, #EBB94D 70%)
+}
+
+.container-4 {
+  height: 640px;
+  background-color: #FEF5E0;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+}
+.container-4__center {
+  text-align: center;
+  position: relative;
+}
+.about {
+  width: 80px;
+  height: 80px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  border-radius: 50%;
+  background-color: #EBB94D;
+  padding: 30px 0px;
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 40px);
+}
+.container-4__title {
+  width: 860px;
+  height: 140px;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 30px;
+  margin: 80px 155px 40px;
+  position: relative;
+}
+.container-4__title::before, .container-4__title::after {
+  content: '';
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.container-4__title::before {
+  border-top: 4px solid #EBB94D;
+  border-left: 4px solid #EBB94D;
+  top: 0;
+  left: 0;
+}
+.container-4__title::after {
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+  bottom: 0;
+  right: 0;
+}
+.container-4__p {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 10px 0px 30px;
+}
+.skill-box {
+  width: 1170px;
+  height: 250px;
+  background-color: #FFFFFF;
+  border: 2px solid #EBB94D;
+  border-radius: 5px;
+  padding: 30px 0px;
+}
+.skill-box__title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.skill-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-list-box {
+  padding: 10px;
+  margin-right: 10px;
+}
+.skill-explain {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.container-5 {
+  height: 440px;
+  background-image: url(/Users/keimae/iSara/img/aboutsecondbg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.container-5__center {
+  text-align: center;
+}
+.container-5__title {
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 60px 0px 20px;
+}
+.container-5__str {
+  color: #FFFFFF;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.str-color {
+  color: #EBB94D;
+}
+.bangkok-box {
+  width: 375px;
+  height: 180px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin: 20px 13px 0px 0px;
+  padding: 30px;
+  display: inline-block;
+}
+.bangkok-step {
+  width: 315px;
+  height: 25px;
+  color: #FFFFFF;
+  background-color: #EBB94D;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.bangkok-p1 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 30px 0px 15px 0px;
+}
+.bangkok-p2 {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.container-6 {
+  height: 145px;
+  background-color: #1D6EA9;
+  color: #FFFFFF;
+  padding: 45px 0px;
+}
+.container-6-title {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container-7 {
+  height: 505px;
+  background-color: #FFFFFF;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.skill-img {
+  margin: 0px 18px;
+  display: inline-block;
+}
+.container-7-p1 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 60px;
+}
+.str-small {
+  font-size: 16px;
+}
+.container-7-p2 {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 40px 0px 35px;
+}
+.container-7-p3 {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 35px;
+}
+
+.container-8 {
+  height: 1085px;
+  background-color: #FEF5E0;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+}
+.container-8__title-1 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.merit-list {
+  margin-top: 74px;
+  display: flex;
+  justify-content: center;
+}
+.merit-box {
+  width: 360px;
+  height: 400px;
+  margin: 0px 10px;
+  text-align: left;
+}
+.merit-title {
+  color: #EBB94D;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.merit-explain {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.support-box {
+  width: 1170px;
+  height: 265px;
+  background-color: #FFFFFF;
+  border: 2px solid #EBB94D;
+  border-radius: 5px;
+  padding: 40px 0px;
+  margin-top: 470px;
+  text-align: center;
+}
+.support-title {
+  color: #EBB94D;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.support-p1 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 15px 0px 10px 0px;
+}
+.support-p2 {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.support-p3 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container-9 {
+  height: 1455px;
+  background-image: url(/Users/keimae/iSara/img/teacherbg.jpg);
+  background-size: cover;
+  color: #FFFFFF;
+  padding: 80px 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.member-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.member-title-1 {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 30px 0px;
+}
+.member-list {
+  width: 820px;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.member-box {
+  width: 380px;
+  height: 390px;
+  border: 3px solid #FFFFFF;
+  padding: 40px;
+  margin: 100px 15px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  position: relative;
+}
+.member-img {
+  border-radius: 50%;
+  position: absolute;
+  top: -170px;
+  left: 90px;
+}
+.member-name {
+  margin: 12px 0px;
+}
+.member-p2 {
+  text-align: left;
+}
+
+.container-10 {
+  height: 270px;
+  background-color: #EBB94D;
+  text-align: center;
+  padding: 120px 0px 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.q-and-a {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  color: #EBB94D;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: 30px 0px;
+  position: absolute;
+  top: 40px;
+  left: calc(50% - 40px);
+}
+.container-10__title {
+  width: 860px;
+  height: 110px;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+.container-10__title::before, .container-10__title::after {
+  content: '';
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.container-10__title::before {
+  border-top: 4px solid #FFFFFF;
+  border-left: 4px solid #FFFFFF;
+  top: 0;
+  left: 0;
+}
+.container-10__title::after {
+  border-bottom: 4px solid #FFFFFF;
+  border-right: 4px solid #FFFFFF;
+  bottom: 0;
+  right: 0;
+}
+.container-10-p {
+  color: #FFFFFF;
+}
+.diamond {
+  height: 50px;
+  width: 50px;
+  background-color: #EBB94D;
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: -15px;
+  left: calc(50% - 25px);
+}
+
+.container-11 {
+  height: 1050px;
+  background-color: #FFFFFF;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+}
+.container-11-center {
+  text-align: center;
+}
+.container-11-p1 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+.container-11-p2 {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin: 10px 0px 35px;
+}
+.container-11-p3 {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+.company {
+  width: 780px;
+  display: flex;
+  margin-bottom: 40px;
+}
+.company-img {
+  border: 3px solid #EBB94D;
+}
+.company-voice {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #767676;
+  font-style: italic;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.thin-underline {
+  text-decoration: underline;
+}
+
+.container-12 {
+  height: 800px;
+  background-image: url(/Users/keimae/iSara/img/classbg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.container-12-center {
+  text-align: center;
+}
+.content-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  margin-top: 60px;
+}
+.content-p {
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
+  margin: 9px 0px 35px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.content-before {
+  width: 375px;
+  border: 2px solid #1D6EA9;
+  border-radius: 5px;
+  margin: 15px;
+}
+.content-blue {
+  height: 62px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  background-color: #1D6EA9;
+  padding: 15px 0px;
+}
+.content-white {
+  height: 47px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 12px 0px;
+}
+.content-bangkok {
+  width: 375px;
+  height: 348px;
+  border: 2px solid #1D6EA9;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.content-13 {
+  height: 145px;
+  background-color: #1D6EA9;
+  text-align: center;
+  padding: 40px;
+}
+.content-13-title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+}
+
+.content-14 {
+  height: 1780px;
+  background-color: #FFFFFF;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+}
+.content-14-center {
+  text-align: center;
+}
+.content-14-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin: 60px 0px 50px;
+}
+.content-14-img {
+  margin-bottom: 33px;
+}
+.flow-box {
+  width: 1170px;
+  height: 225px;
+  background-color: #FEF4E0;
+  padding: 20px 40px;
+  display: flex;
+}
+.flow-box-left {
+  padding: 0px 40px 0px 35px;
+}
+.flow-img {
+  margin: 10px 10px 0px;
+}
+.flow-title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.flow-box-right {
+  text-align: left;
+  letter-spacing: 1px;
+}
+.flow-p-bold {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+.flow-p-thin {
+  font-size: 15px;
+  font-weight: 200;
+  margin: 15px 0px;
+}
+.square {
+  display: flex;
+  justify-content: center;
+}
+.square-left-bottom {
+  width: calc(100vw - 680px);
+  height: 30px;
+  border-left: 2px solid #EBB94D;
+  border-bottom: 1px solid #EBB94D;
+}
+.square-top-right {
+  width: calc(100vw - 680px);
+  height: 30px;
+  border-right: 2px solid #EBB94D;
+  border-top: 1px solid #EBB94D;
+}
+.square-right-bottom {
+  width: calc(100vw - 680px);
+  height: 30px;
+  border-right: 2px solid #EBB94D;
+  border-bottom: 1px solid #EBB94D;
+}
+.square-top-left {
+  width: calc(100vw - 680px);
+  height: 30px;
+  border-left: 2px solid #EBB94D;
+  border-top: 1px solid #EBB94D;
+}
+
+.container-15 {
+  background-image: url(/Users/keimae/iSara/img/bangkokbg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 80px 135px;
+  color: #FFFFFF;
+}
+.container-15-title {
+  font-size: 24px;
+  font-weight: 600px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+.container-15-p1 {
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  margin: 20px 0px;
+}
+.container-15-p2 {
+  font-size: 16px;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.container-15-p3 {
+  font-size: 20px;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.container-16 {
+  height: 700px;
+  color: #333333;
+  background-color: #F7C23C;
+  display: flex;
+  justify-content: center;
+}
+.container-16-center {
+  text-align: center;
+  position: relative;
+}
+.container-16-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-top: 60px;
+}
+.container-16-p {
+  font-size: 16px;
+  margin: 35px 0px 95px;
+  letter-spacing: 1.5px;
+}
+.white {
+  color: #FFFFFF;
+}
+.benefit-box {
+  width: 1170px;
+  height: 360px;
+  border: 2px solid #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  padding: 45px;
+}
+.benefit {
+  width: 250px;
+  height: 250px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  padding: 40px 15px;
+}
+.benefit-p1 {
+  color: #F7C23C;
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  margin: 13px;
+}
+.benefit-p2 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  word-wrap: break-word;
+}
+.benefit-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background-color: #F7C23C;
+  position: absolute;
+  top: 235px;
+  left: calc(50% - 320px);
+}
+
+.container-17 {
+  background-image: url(/Users/keimae/iSara/img/specialdetail.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+.container-17  {
+  text-align: center;
+}
+.container-17-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 20px;
+}
+.container-17-p {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 20px 0px 40px;
+}
+
+.container-18 {
+  height: 600px;
+  background-color: #FFFFFF;
+  color: #333333;
+  padding: 55px;
+  display: flex;
+  justify-content: center;
+}
+.container-18-center {
+  text-align: center;
+}
+.container-18-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.container-18-title2 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin: 35px 0px 35px;
+}
+.founder-box {
+  width: 880px;
+  display: flex;
+}
+.founder-img {
+  margin: 10px 30px 10px 10px;
+}
+.founder-message {
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.founder-p {
+  margin: 10px 0px;
+}
+.founder-p2 {
+  margin: 30px 0px;
+}
+
+.container-19 {
+  height: 700px;
+  background-color: #EBB94D;
+  display: flex;
+  justify-content: center;
+  color: #333333;
+  padding: 60px;
+}
+.container-19-center {
+  text-align: center;
+}
+.container-19-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.container-19-p {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin: 20px 0px 30px;
+}
+.form-text {
+  width: calc(100vw - 580px);
+  height: 55px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px 10px;
+  font-size: 14px;
+  font-weight: 200;
+  text-align: left;
+  margin: 25px 0px;
+}
+.form-textarea {
+  width: calc(100vw - 580px);
+  height: 100px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 200;
+  text-align: left;
+  margin: 40px 0px;
+}
+.form-submit {
+  width: calc(100vw - 580px);
+  height: 60px;
+  color: #FFFFFF;
+  font-size: 23px;
+  font-weight: 500;
+  background-color: #DB6B65;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 60px;
+  letter-spacing: 23px;
+  cursor: pointer;
+}
+
+.container-20 {
+  padding: 50px;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+}
+.container-20-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin: 10px 0px 40px 0px;
+}
+.question-box {
+  width: calc(100vw - 330px);
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px; 
+  margin-bottom: 5px;
+}
+.fa-question-circle, .blue {
+  color: #1D6EA9;
+}
+.arrow {
+  font-size: 30px;
+  color: #DDDDDD;
+}
+
+footer {
+  height: 180px;
+  background-color: #ECECEC;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #FFFFFF;
+}
+.footer-field {
+  text-align: center;
+}
+.footer-p {
+  font-size: 10px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.footer-p2 {
+  font-size: 10px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  color: #333333;
+  margin-top: 30px;
+}
